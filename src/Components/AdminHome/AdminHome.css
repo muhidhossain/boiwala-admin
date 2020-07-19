@@ -1,0 +1,32 @@
+.adminHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.adminHome input{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #498EC5;
+    padding: 0 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.adminHome .submitBtn{
+    background-color: #498EC5;
+    color: white !important;
+    width: 420px;
+    font-weight: 700;
+}
+
+.adminHome .submitBtn:hover{
+    background-color: #277ec5;
+}
+
+.adminHome .error{
+    color: red;
+    font-size: 14px;
+}
